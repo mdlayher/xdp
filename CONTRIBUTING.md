@@ -1,5 +1,4 @@
-Contributing
-============
+# Contributing
 
 The `xdp` project makes use of the [GitHub Flow](https://guides.github.com/introduction/flow/)
 for contributions.

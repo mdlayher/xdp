@@ -11,6 +11,8 @@ import (
 )
 
 func main() {
+	// WIP WIP WIP! Help wanted!
+
 	// https://www.kernel.org/doc/html/latest/networking/af_xdp.html
 	var (
 		ifiFlag   = flag.String("i", "eth0", "network interface to use with AF_XDP")
@@ -77,6 +79,8 @@ func main() {
 	if err := unix.Bind(fd, &sa); err != nil {
 		log.Fatalf("failed to bind: %v", err)
 	}
+
+	// WIP WIP WIP! Help wanted!
 
 	log.Printf("AF_XDP mmap'd %d bytes, offsets: %#v", len(out), offsets)
 }
